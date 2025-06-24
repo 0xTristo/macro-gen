@@ -14,14 +14,6 @@ A tool for recording and replaying mouse and keyboard actions.
 
 ## Installation
 
-### Using pip
-
-```bash
-pip install macro-gen
-```
-
-This will automatically install all required dependencies.
-
 ### From source
 
 1. Clone the repository:
