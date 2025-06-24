@@ -22,9 +22,9 @@ A tool for recording and replaying mouse and keyboard actions.
    cd macro-gen
    ```
 
-2. Install with pip in development mode:
+2. Install with pip:
    ```bash
-   pip install -e .
+   pip install .
    ```
 
 3. System-wide installation (requires root privileges):
@@ -96,13 +96,6 @@ Remove a specific recording:
 ```bash
 macro-gen rm-recording recording_name
 ```
-
-## Configuration
-
-The tool can be configured using a config file. Configuration files are read from the following locations in order of priority:
-- `./macro_gen.conf` (current directory)
-- `~/.config/macro-gen/config.conf` (user's config directory)
-- Package's default configuration 
 
 ### File Locations
 
